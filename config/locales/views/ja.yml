@@ -7,12 +7,29 @@ ja:
     new:
       title: "ユーザー登録ページ"
       to_login_page: "ログインページへ"
+    create:
+      success: "ユーザー登録が完了しました"
+      fail: "ユーザー登録に失敗しました"
   user_sessions:
     new:
       title: "ログイン"
       to_register_page: "登録ページへ"
       password_foget: "パスワードをお忘れの方はこちら"
-
+    create:
+      success: "ログインに成功しました"
+      fail: "ログインに失敗しました"
+    destroy:
+      success: "ログアウトしました"
+  bords:
+    index:
+      title: "掲示板一覧"
+    new:
+      title: "掲示板作成"
+    bookmarks:
+      title: "ブックマーク一覧"
+  profiles:
+    show:
+      title: "プロフィール"
 
       
       
