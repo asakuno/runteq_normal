@@ -30,10 +30,10 @@
             <%= image_tag 'sample', width:'40', height:'40', class:'rounded-circle mr15' %>
           
           <div class='dropdown-menu dropdown-menu-right'>
-            <div class='dropdown-item'>らんてっく たろう</div>
+            <div class='dropdown-item'><%= current_user.decorate.full_name %></div>
             <div class='dropdown-divider'></div>
             <%= link_to "プロフィール", "#", class: 'dropdown-item'%>
-            <%= link_to t"defaults.logout", logout_path, method: :delete, class: 'dropdown-item' %>
+            <%= link_to (t"defaults.logout"), logout_path, method: :delete, class: 'dropdown-item' %>
           </div>
         </li>
       </ul>

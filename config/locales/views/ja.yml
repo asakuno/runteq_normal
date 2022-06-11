@@ -14,7 +14,7 @@ ja:
     new:
       title: "ログイン"
       to_register_page: "登録ページへ"
-      password_foget: "パスワードをお忘れの方はこちら"
+      password_forget: "パスワードをお忘れの方はこちら"
     create:
       success: "ログインに成功しました"
       fail: "ログインに失敗しました"
