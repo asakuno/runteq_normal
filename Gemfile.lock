@@ -76,12 +76,20 @@ GEM
     concurrent-ruby (1.1.5)
     crass (1.0.4)
     diff-lcs (1.3)
+<<<<<<< Updated upstream
     draper (3.1.0)
+=======
+    draper (4.0.2)
+>>>>>>> Stashed changes
       actionpack (>= 5.0)
       activemodel (>= 5.0)
       activemodel-serializers-xml (>= 1.0)
       activesupport (>= 5.0)
       request_store (>= 1.0)
+<<<<<<< Updated upstream
+=======
+      ruby2_keywords
+>>>>>>> Stashed changes
     erubi (1.8.0)
     execjs (2.7.0)
     factory_bot (5.0.2)
@@ -297,7 +305,11 @@ DEPENDENCIES
   bootstrap (~> 4.4.1)
   byebug
   capybara
+<<<<<<< Updated upstream
   draper (= 3.1.0)
+=======
+  draper
+>>>>>>> Stashed changes
   factory_bot_rails
   faker
   font-awesome-sass (~> 5.12.0)
