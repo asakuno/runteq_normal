@@ -1,6 +1,6 @@
 ja:
   activerecord:
-    model: 
+    models: 
       user: "ユーザー"
       board: "掲示板"
     attributes:
