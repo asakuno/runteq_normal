@@ -10,3 +10,9 @@ ja:
         email: "メールアドレス"
         password: "パスワード"
         password_confirmation: "パスワード確認"
+      board:
+        title: "タイトル"
+        body: "本文"
+  time:
+    formats:
+      default: "%Y/%m/%d %H:%M:%S"

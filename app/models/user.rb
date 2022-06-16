@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  has_many :boards, dependent: :destroy
   authenticates_with_sorcery!
 
   validates :password, length: { minimum: 3 }, if: -> { new_record? || changes[:crypted_password] }
@@ -9,4 +10,5 @@ class User < ApplicationRecord
   validates :email, presence: true
   validates :first_name, length: { maximum: 255 }
   validates :last_name, length: { maximum: 255 }
+  
 end
