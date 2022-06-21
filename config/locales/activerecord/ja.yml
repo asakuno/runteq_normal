@@ -13,6 +13,8 @@ ja:
       board:
         title: "タイトル"
         body: "本文"
+        board_image: "サムネイル"
+        remove_image: "画像を削除する"
   time:
     formats:
       default: "%Y/%m/%d %H:%M:%S"
