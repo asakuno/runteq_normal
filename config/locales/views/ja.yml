@@ -10,7 +10,7 @@ ja:
       not_created: "%{item}を作成できませんでした"
   users:
     new:
-      title: "ユーザー登録ページ"
+      title: "ユーザー登録"
       to_login_page: "ログインページへ"
     create:
       success: "ユーザー登録が完了しました"
