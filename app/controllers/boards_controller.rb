@@ -1,5 +1,5 @@
 class BoardsController < ApplicationController
-  #before_action :set_board, only: %i[show]
+  before_action :set_board, only: %i[show]
   def index
     @boards = Board.all.includes(:user).order(created_at: :desc)
   end
@@ -20,6 +20,8 @@ class BoardsController < ApplicationController
   end
 
   def show
+    @comment = Comment.new
+    @comments = @board.comments.includes(:user).order(created_at: :desc)
   end
 
   private

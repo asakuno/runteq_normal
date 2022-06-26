@@ -2,6 +2,7 @@ ja:
   defaults:
     login: "ログイン"
     register: "登録"
+    post: "投稿"
     logout: "ログアウト"
     message:
       require_login: "ログインしてください"
@@ -30,6 +31,9 @@ ja:
       no_result: "掲示板がありません"
     new:
       title: "掲示板作成"
+    show:
+      show: "掲示板詳細"
+      create: "投稿"
     bookmarks:
       title: "ブックマーク一覧"
   profiles:

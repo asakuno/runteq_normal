@@ -3,6 +3,7 @@ ja:
     models: 
       user: "ユーザー"
       board: "掲示板"
+      comment: "コメント"
     attributes:
       user:
         last_name: "姓"
@@ -15,6 +16,8 @@ ja:
         body: "本文"
         board_image: "サムネイル"
         remove_image: "画像を削除する"
+      comment:
+        body: "コメント"
   time:
     formats:
       default: "%Y/%m/%d %H:%M:%S"
