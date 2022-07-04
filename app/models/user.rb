@@ -13,7 +13,7 @@ class User < ApplicationRecord
   validates :last_name, length: { maximum: 255 }, presence: true
 
   def own?(object)
-    id == object.user_id  
+    self.id == object.user_id  
   end
   
 end

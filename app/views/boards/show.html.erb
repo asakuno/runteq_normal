@@ -15,6 +15,7 @@
                 <li class="list-inline-item"><%= "by " + @board.user.decorate.full_name.to_s %></li>
                 <li class="list-inline-item"><%= l @board.created_at, format: :long %></li>
               </ul>
+              <%= render 'icons', {board: @board } if current_user.own?(@board) %>
             </div>
           </div>
           <p><%=simple_format(@board.body) %></p>
