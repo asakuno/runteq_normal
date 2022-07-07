@@ -6,5 +6,7 @@ Rails.application.routes.draw do
   resources :users, only: %w[new create]
   resources :boards do
     resources :comments, only: %i[create], shallow: true
+    get :bookmarks, on: :collection
   end
+  resources :bookmarks, only: %w[create destroy]
 end

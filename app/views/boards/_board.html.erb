@@ -7,7 +7,11 @@
           <%= link_to "#{board.title}", board_path(board) %>
         </h1>
         <div class='mr10 float-right'>
-          <%= render 'icons', {board: board } if current_user.own?(board) %>
+          <% if current_user.own?(board) %>
+            <%= render 'icons', {board: board } %>
+          <% else %>
+            <%= render 'bookmarks/bookmark_button', {board: board } %>
+          <% end %>            
         </div>
         <ul class="list-inline">
           <li class="list-inline-item">
