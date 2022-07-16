@@ -9,7 +9,14 @@ class CommentsController < ApplicationController
     end
   end
 
+  def update
+  end
+
+  def destroy
+  end
+
   private
+  
 
   def comment_params
     params.require(:comment).permit(:body).merge(board_id: params[:board_id])

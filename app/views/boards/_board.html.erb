@@ -10,7 +10,7 @@
           <% if current_user.own?(board) %>
             <%= render 'icons', {board: board } %>
           <% else %>
-            <%= render 'bookmarks/bookmark_button', {board: board } %>
+            <%= render 'boards/bookmark_button', {board: board } %>
           <% end %>            
         </div>
         <ul class="list-inline">

@@ -15,19 +15,6 @@
   </td>
 
   <% if current_user.own?(comment) %>
-    <td class="action">
-      <ul class="list-inline justify-content-center" style="float: right;">
-        <li class="list-inline-item">
-          <a href="#" class='js-edit-comment-button' data-comment-id="<%= comment.id %>">
-            <%= icon 'fa', 'pen' %>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a href="#" class='js-delete-comment-button' data-comment-id="<%= comment.id %>">
-            <%= icon 'fas', 'trash' %>
-          </a>
-        </li>
-      </ul>
-    </td>
+     <%= render 'comments/comment_icon', {comment: comment } %>
   <% end %>
 </tr>
