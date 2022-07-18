@@ -6,9 +6,9 @@
           </a>
         </li>
         <li class="list-inline-item">
-          <a href="#" class='js-delete-comment-button' data-comment-id="<%= comment.id %>">
-            <%= icon 'fas', 'trash' %>
-          </a>
+          <%= link_to comment_path(comment), method: :delete, class: 'js-delete-comment-button', id: "comment-#{@comment.id}", remote: true, data: { confirm: 'よろしいですか' } do %>
+            <%= icon 'fa', 'trash' %>
+          <% end %>
         </li>
       </ul>
     </td>
