@@ -70,5 +70,6 @@ gem 'rails-i18n', '~> 5.1'
 gem 'draper'
 gem 'carrierwave', '~> 2.0'
 gem "mini_magick"
-#gem 'kaminari'
+gem 'kaminari'
+gem 'bootstrap4-kaminari-views'
 
