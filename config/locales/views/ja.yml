@@ -4,6 +4,7 @@ ja:
     register: "登録"
     post: "投稿"
     logout: "ログアウト"
+    search_word: "検索ワード"
     message:
       require_login: "ログインしてください"
       created: "%{item}を作成しました"
