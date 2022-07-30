@@ -21,6 +21,8 @@ ja:
         remove_image: "画像を削除する"
       comment:
         body: "コメント"
+      password_reset:
+        email: "メールアドレス"
   time:
     formats:
       default: "%Y/%m/%d %H:%M:%S"

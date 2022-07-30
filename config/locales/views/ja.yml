@@ -8,6 +8,8 @@ ja:
     update: "更新"
     profile: "プロフィール"
     edit: "編集"
+    send: "送信"
+    password_reset: "パスワードリセット"
     message:
       require_login: "ログインしてください"
       created: "%{item}を作成しました"
@@ -57,6 +59,16 @@ ja:
       title: "プロフィール"
     edit:
       title: "プロフィール編集"
+  password_resets:
+    new:
+      title: "パスワードリセット申請"
+    edit:
+      title: "パスワードリセット"
+    create:
+      success: 'パスワードリセット手順を送信しました'
+    update:
+      success: 'パスワードを変更しました'
+      fail: 'パスワードの変更に失敗しました'
 
       
       
