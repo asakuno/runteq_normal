@@ -14,7 +14,7 @@
 
   <body class="hold-transition sidebar-mini">
   <div class="wrapper">
-
+  <% if request.fullpath.include? "/admin" %>
     <%= render 'admin/shared/header' %>
     <%= render 'admin/shared/sidebar' %>
 
@@ -26,6 +26,7 @@
     <!-- /.content-wrapper -->
 
     <%= render 'admin/shared/footer' %>
+  <% end %>
 
   </div>
 

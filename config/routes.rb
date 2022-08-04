@@ -1,9 +1,11 @@
 Rails.application.routes.draw do
   namespace :admin do
-    root 'dashboards#index'
+    root 'dashboards#index', as: :root
     get 'login', to: 'user_sessions#new'
     post 'login', to: 'user_sessions#create'
     delete 'logout', to: 'user_sessions#destroy'
+    resources :users, only: %w[index show edit update destroy]
+    resources :boards, only: %w[index show edit update destroy]
   end
   root 'static_pages#top'
   get 'login', to: 'user_sessions#new'

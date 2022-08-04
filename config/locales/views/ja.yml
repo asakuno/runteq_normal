@@ -8,7 +8,10 @@ ja:
     update: "更新"
     profile: "プロフィール"
     edit: "編集"
+    show: "詳細"
+    delete: "削除"
     send: "送信"
+    unspecified: "指定なし"
     password_reset: "パスワードリセット"
     message:
       require_login: "ログインしてください"
@@ -69,6 +72,27 @@ ja:
     update:
       success: 'パスワードを変更しました'
       fail: 'パスワードの変更に失敗しました'
+  enums:
+    user:
+      role:
+        general: "一般"
+        admin: "管理者"
+  admin:
+    users:
+      index:
+        title: "ユーザー一覧"
+      show:
+        title: "ユーザー詳細"
+      edit: 
+        title: "ユーザー編集"
+    boards:
+      index:
+        title: "掲示板一覧"
+      show:
+        title: "掲示板詳細"
+      edit:
+        title: "掲示板編集"
+  
 
       
       
